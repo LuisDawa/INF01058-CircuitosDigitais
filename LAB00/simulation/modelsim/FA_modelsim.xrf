@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, D:/Documents/Quartus/LAB00/FA.bdf
+source_file = 1, D:/Documents/Quartus/LAB00/FA.vwf
+source_file = 1, D:/Documents/Quartus/LAB00/db/FA.cbx.xml
+design_name = FA
+instance = comp, \S~output , S~output, FA, 1
+instance = comp, \Cout~output , Cout~output, FA, 1
+instance = comp, \A~input , A~input, FA, 1
+instance = comp, \B~input , B~input, FA, 1
+instance = comp, \Cin~input , Cin~input, FA, 1
+instance = comp, \inst3~0 , inst3~0, FA, 1
+instance = comp, \inst2~0 , inst2~0, FA, 1

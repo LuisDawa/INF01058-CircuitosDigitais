@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, D:/Documents/Quartus/LAB00/HA.bdf
+source_file = 1, D:/Documents/Quartus/LAB00/HA.vwf
+source_file = 1, D:/Documents/Quartus/LAB00/db/HA.cbx.xml
+design_name = HA
+instance = comp, \S~output , S~output, HA, 1
+instance = comp, \Cout~output , Cout~output, HA, 1
+instance = comp, \A~input , A~input, HA, 1
+instance = comp, \B~input , B~input, HA, 1
