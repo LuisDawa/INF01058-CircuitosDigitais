@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 104 88 272 104)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A[15..0]" (rect 5 0 44 12)(font "Arial" ))
+	(text "A[15..0]" (rect 5 0 43 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 104 112 272 128)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B[15..0]" (rect 5 0 44 12)(font "Arial" ))
+	(text "B[15..0]" (rect 5 0 43 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -326,11 +326,6 @@ applicable agreement for further details.
 	(pt 944 280)
 )
 (connector
-	(text "Cin,Cout" (rect 506 232 549 244)(font "Arial" ))
-	(pt 448 248)
-	(pt 544 248)
-)
-(connector
 	(text "A[11..8]" (rect 506 248 544 260)(font "Arial" ))
 	(pt 544 264)
 	(pt 496 264)
@@ -365,4 +360,8 @@ applicable agreement for further details.
 	(pt 896 264)
 	(pt 944 264)
 	(bus)
+)
+(connector
+	(pt 448 248)
+	(pt 544 248)
 )

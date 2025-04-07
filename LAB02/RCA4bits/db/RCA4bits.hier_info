@@ -1,0 +1,77 @@
+|RCA4bits
+Cout <= RCA4:inst.Cout
+A[0] => RCA4:inst.A[0]
+A[1] => RCA4:inst.A[1]
+A[2] => RCA4:inst.A[2]
+A[3] => RCA4:inst.A[3]
+B[0] => RCA4:inst.B[0]
+B[1] => RCA4:inst.B[1]
+B[2] => RCA4:inst.B[2]
+B[3] => RCA4:inst.B[3]
+S[0] <= RCA4:inst.S[0]
+S[1] <= RCA4:inst.S[1]
+S[2] <= RCA4:inst.S[2]
+S[3] <= RCA4:inst.S[3]
+
+
+|RCA4bits|RCA4:inst
+Cout <= FA:inst4.Cout
+A[0] => FA:inst.A
+A[1] => FA:inst2.A
+A[2] => FA:inst3.A
+A[3] => FA:inst4.A
+B[0] => FA:inst.B
+B[1] => FA:inst2.B
+B[2] => FA:inst3.B
+B[3] => FA:inst4.B
+Cin => FA:inst.Cin
+S[0] <= FA:inst.S
+S[1] <= FA:inst2.S
+S[2] <= FA:inst3.S
+S[3] <= FA:inst4.S
+
+
+|RCA4bits|RCA4:inst|FA:inst4
+S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst.IN1
+B => inst4.IN1
+B => inst.IN0
+Cin => inst3.IN1
+Cin => inst1.IN0
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RCA4bits|RCA4:inst|FA:inst3
+S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst.IN1
+B => inst4.IN1
+B => inst.IN0
+Cin => inst3.IN1
+Cin => inst1.IN0
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RCA4bits|RCA4:inst|FA:inst2
+S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst.IN1
+B => inst4.IN1
+B => inst.IN0
+Cin => inst3.IN1
+Cin => inst1.IN0
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RCA4bits|RCA4:inst|FA:inst
+S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst.IN1
+B => inst4.IN1
+B => inst.IN0
+Cin => inst3.IN1
+Cin => inst1.IN0
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
