@@ -1,0 +1,30 @@
+# do RCA8bits.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RCA8bits
+# 
+# Top level modules:
+# 	RCA8bits
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RCA8bits_vlg_sample_tst
+# -- Compiling module RCA8bits_vlg_check_tst
+# -- Compiling module RCA8bits_vlg_vec_tst
+# 
+# Top level modules:
+# 	RCA8bits_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.RCA8bits_vlg_vec_tst 
+# Loading work.RCA8bits_vlg_vec_tst
+# Loading work.RCA8bits
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading work.RCA8bits_vlg_sample_tst
+# Loading work.RCA8bits_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from RCA8bits_v.sdo
+# Loading timing data from RCA8bits_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /RCA8bits_vlg_vec_tst File: Waveform8b.vwf.vt
+# Simulation passed !
+# ** Note: $finish    : Waveform8b.vwf.vt(302)
+#    Time: 1 us  Iteration: 0  Instance: /RCA8bits_vlg_vec_tst/tb_out

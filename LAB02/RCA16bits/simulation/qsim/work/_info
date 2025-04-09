@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\Quartus\lab02\LAB02\RCA16bits\simulation\qsim
+vRCA16bits
+Z1 !s100 l?6P0Lb4J<mO9ClBCGg3d1
+Z2 IJnBJonc9f^bWZWWYKd1]o1
+Z3 Vn^PB0jlS<Z:EcZLAZKg<F2
+Z4 dC:\altera\Quartus\lab02\LAB02\RCA16bits\simulation\qsim
+Z5 w1744068526
+Z6 8RCA16bits.vo
+Z7 FRCA16bits.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|RCA16bits.vo|
+Z10 o-work work -O0
+Z11 n@r@c@a16bits
+!i10b 1
+!s85 0
+Z12 !s108 1744068526.936000
+Z13 !s107 RCA16bits.vo|
+!s101 -O0
+vRCA16bits_vlg_check_tst
+!i10b 1
+Z14 !s100 @bjFkS5oD0X]XI^S2MQL50
+Z15 I=Db6YLA[JiUi^2^?`k;613
+Z16 V7n>=Gbb1N3eC;8GhWKl2o0
+R4
+Z17 w1744068525
+Z18 8Waveform16b.vwf.vt
+Z19 FWaveform16b.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1744068527.011000
+Z21 !s107 Waveform16b.vwf.vt|
+Z22 !s90 -work|work|Waveform16b.vwf.vt|
+!s101 -O0
+R10
+Z23 n@r@c@a16bits_vlg_check_tst
+vRCA16bits_vlg_sample_tst
+!i10b 1
+Z24 !s100 nFM<7b5Ckc;T<5G:d6d_h3
+Z25 IYWe9=FANAY85L;nlcE3LW1
+Z26 VMS^i:10WX?;_^`P]fFI^C3
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@r@c@a16bits_vlg_sample_tst
+vRCA16bits_vlg_vec_tst
+!i10b 1
+!s100 6io1cGMb<dUV7ZLNhc<K62
+Ik?7m?80in0R:L;OS;G7PF0
+Z28 VIU;A2H9aF_mm^HdVmQJVk0
+R4
+R17
+R18
+R19
+Z29 L0 452
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@r@c@a16bits_vlg_vec_tst

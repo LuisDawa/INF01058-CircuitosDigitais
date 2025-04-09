@@ -1,0 +1,30 @@
+# do RCA4bits.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RCA4bits
+# 
+# Top level modules:
+# 	RCA4bits
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RCA4bits_vlg_sample_tst
+# -- Compiling module RCA4bits_vlg_check_tst
+# -- Compiling module RCA4bits_vlg_vec_tst
+# 
+# Top level modules:
+# 	RCA4bits_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.RCA4bits_vlg_vec_tst 
+# Loading work.RCA4bits_vlg_vec_tst
+# Loading work.RCA4bits
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading work.RCA4bits_vlg_sample_tst
+# Loading work.RCA4bits_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from RCA4bits_v.sdo
+# Loading timing data from RCA4bits_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /RCA4bits_vlg_vec_tst File: Waveform4b.vwf.vt
+# Simulation passed !
+# ** Note: $finish    : Waveform4b.vwf.vt(230)
+#    Time: 1 us  Iteration: 0  Instance: /RCA4bits_vlg_vec_tst/tb_out

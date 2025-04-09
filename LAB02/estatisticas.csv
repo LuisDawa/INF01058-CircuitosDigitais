@@ -1,0 +1,4 @@
+Número de bits;Total logic elements;Total Pins;Consumo de área;Atraso (ns)
+4;8 / 5,136 ;13/183;21;8.570
+8;18 / 5,136;25/183;43;11.025
+16;40/5,136;50/183;90;20.236

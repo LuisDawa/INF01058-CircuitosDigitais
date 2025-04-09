@@ -1,0 +1,454 @@
+$comment
+	File created using the following command:
+		vcd file RCA8bits.msim.vcd -direction
+$end
+$date
+	Tue Apr 08 17:59:45 2025
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module RCA8bits_vlg_vec_tst $end
+$var reg 8 ! A [7:0] $end
+$var reg 8 " B [7:0] $end
+$var wire 1 # Cout $end
+$var wire 1 $ S [7] $end
+$var wire 1 % S [6] $end
+$var wire 1 & S [5] $end
+$var wire 1 ' S [4] $end
+$var wire 1 ( S [3] $end
+$var wire 1 ) S [2] $end
+$var wire 1 * S [1] $end
+$var wire 1 + S [0] $end
+$var wire 1 , sampler $end
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 Cout~output_o $end
+$var wire 1 4 S[7]~output_o $end
+$var wire 1 5 S[6]~output_o $end
+$var wire 1 6 S[5]~output_o $end
+$var wire 1 7 S[4]~output_o $end
+$var wire 1 8 S[3]~output_o $end
+$var wire 1 9 S[2]~output_o $end
+$var wire 1 : S[1]~output_o $end
+$var wire 1 ; S[0]~output_o $end
+$var wire 1 < A[7]~input_o $end
+$var wire 1 = A[6]~input_o $end
+$var wire 1 > B[6]~input_o $end
+$var wire 1 ? inst|inst2|inst3|inst2~0_combout $end
+$var wire 1 @ B[7]~input_o $end
+$var wire 1 A B[5]~input_o $end
+$var wire 1 B A[5]~input_o $end
+$var wire 1 C B[4]~input_o $end
+$var wire 1 D A[4]~input_o $end
+$var wire 1 E inst|inst2|inst|inst2~0_combout $end
+$var wire 1 F A[2]~input_o $end
+$var wire 1 G B[0]~input_o $end
+$var wire 1 H A[1]~input_o $end
+$var wire 1 I A[0]~input_o $end
+$var wire 1 J B[1]~input_o $end
+$var wire 1 K inst|inst|inst2|inst2~0_combout $end
+$var wire 1 L B[2]~input_o $end
+$var wire 1 M inst|inst|inst3|inst2~1_combout $end
+$var wire 1 N B[3]~input_o $end
+$var wire 1 O A[3]~input_o $end
+$var wire 1 P inst|inst|inst3|inst2~0_combout $end
+$var wire 1 Q inst|inst|inst4|inst2~0_combout $end
+$var wire 1 R inst|inst2|inst|inst2~1_combout $end
+$var wire 1 S inst|inst2|inst2|inst2~0_combout $end
+$var wire 1 T inst|inst2|inst3|inst2~1_combout $end
+$var wire 1 U inst|inst2|inst4|inst2~0_combout $end
+$var wire 1 V inst|inst2|inst4|inst3~combout $end
+$var wire 1 W inst|inst2|inst3|inst3~0_combout $end
+$var wire 1 X inst|inst2|inst2|inst3~combout $end
+$var wire 1 Y inst|inst2|inst|inst3~0_combout $end
+$var wire 1 Z inst|inst|inst4|inst3~combout $end
+$var wire 1 [ inst|inst|inst3|inst3~0_combout $end
+$var wire 1 \ inst|inst|inst2|inst3~0_combout $end
+$var wire 1 ] inst|inst|inst|inst4~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110011 !
+b0 "
+x#
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x,
+0-
+1.
+x/
+10
+11
+12
+x3
+x4
+x5
+x6
+x7
+x8
+x9
+x:
+x;
+0<
+0=
+0>
+x?
+0@
+0A
+1B
+0C
+1D
+xE
+0F
+0G
+1H
+1I
+0J
+xK
+0L
+xM
+0N
+0O
+xP
+xQ
+xR
+xS
+xT
+xU
+xV
+xW
+xX
+xY
+xZ
+x[
+x\
+x]
+$end
+#753
+0?
+#994
+0T
+#3158
+0E
+#3255
+0U
+#3287
+0P
+#3474
+0V
+#3639
+1]
+#3911
+0K
+#3920
+1\
+#4084
+0M
+#4154
+0Q
+#4375
+0[
+#4719
+0Z
+#5599
+0R
+#5608
+1Y
+#5839
+04
+0$
+#5871
+03
+0#
+#5929
+0S
+#5939
+1X
+#6390
+0W
+#6685
+1;
+1+
+#6729
+1:
+1*
+#7157
+09
+0)
+#7499
+08
+0(
+#8478
+16
+1&
+#8849
+17
+1'
+#9183
+05
+0%
+#50000
+b10011 !
+b11011 !
+b11001 !
+b11000 !
+b10000 "
+b11000 "
+0,
+#50670
+1C
+#50676
+1O
+#50686
+1N
+#50830
+0I
+#50832
+0B
+#50842
+0H
+#53563
+1E
+#53589
+0Y
+#54222
+1Z
+#54293
+0]
+#54499
+0Z
+#54502
+1Q
+#54811
+0\
+#55898
+1R
+1Y
+#56813
+07
+0'
+#57352
+0;
+0+
+#57618
+0:
+0*
+#59139
+17
+1'
+#100000
+b10011000 !
+b11011000 !
+b11011100 !
+b11001 "
+b11111100 !
+b11111110 !
+b11111111 !
+b1001 "
+b1 "
+1,
+#100666
+1I
+#100670
+1B
+1F
+1G
+#100680
+1H
+#100690
+1<
+#100700
+1=
+#100832
+0C
+#100850
+0N
+#101760
+1W
+#103767
+1[
+#103803
+1S
+#103835
+0X
+#103871
+1]
+#103876
+1V
+#103990
+0E
+#104012
+0Y
+#104024
+0]
+#104227
+0W
+#104228
+1T
+#104337
+1K
+#104530
+0V
+#104542
+1U
+#104551
+15
+1%
+#104653
+0Q
+#104665
+1Z
+#104763
+0[
+#104764
+1M
+#105317
+1Q
+#105352
+0Z
+#106384
+06
+0&
+#107020
+05
+0%
+#107122
+13
+1#
+#107236
+07
+0'
+#150000
+b11101111 !
+b10000001 "
+b11000001 "
+b11000011 "
+b11100111 !
+b10100111 !
+b10100011 !
+b11000010 "
+b10100001 !
+0,
+#150670
+1@
+#150686
+1J
+#150690
+1>
+#150832
+0F
+0G
+#150840
+0D
+0O
+#150842
+0H
+#150862
+0=
+#151462
+1?
+#151835
+0?
+#153675
+1V
+#153906
+1\
+#154154
+0M
+#154178
+1[
+#154471
+1]
+#154474
+0R
+#154475
+1Y
+#154780
+0Q
+0K
+#154804
+0S
+#154814
+1X
+#155244
+0[
+#155266
+1W
+0T
+#155597
+0V
+#156224
+0Y
+#156715
+1:
+1*
+#157353
+16
+1&
+#157517
+1;
+1+
+#158057
+15
+1%
+#200000
+b100001 !
+b1 !
+b0 !
+b1000010 "
+b10 "
+b0 "
+1,
+#200830
+0I
+#200832
+0B
+0@
+#200850
+0J
+#200852
+0<
+0>
+#201903
+0W
+#204087
+0U
+#204258
+0X
+#204293
+0]
+#204300
+0\
+#204696
+05
+0%
+#206703
+03
+0#
+#206807
+06
+0&
+#207107
+0:
+0*
+#207352
+0;
+0+
+#1000000
