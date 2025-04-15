@@ -1,0 +1,99 @@
+|mux8
+Z[0] <= mux:inst.Z
+Z[1] <= mux:inst1.Z
+Z[2] <= mux:inst2.Z
+Z[3] <= mux:inst3.Z
+Z[4] <= mux:inst7.Z
+Z[5] <= mux:inst8.Z
+Z[6] <= mux:inst11.Z
+Z[7] <= mux:inst12.Z
+A[0] => mux:inst.A
+A[1] => mux:inst1.A
+A[2] => mux:inst2.A
+A[3] => mux:inst3.A
+A[4] => mux:inst7.A
+A[5] => mux:inst8.A
+A[6] => mux:inst11.A
+A[7] => mux:inst12.A
+B[0] => mux:inst.B
+B[1] => mux:inst1.B
+B[2] => mux:inst2.B
+B[3] => mux:inst3.B
+B[4] => mux:inst7.B
+B[5] => mux:inst8.B
+B[6] => mux:inst11.B
+B[7] => mux:inst12.B
+Sel => mux:inst.Sel
+Sel => mux:inst2.Sel
+Sel => mux:inst3.Sel
+Sel => mux:inst7.Sel
+Sel => mux:inst8.Sel
+Sel => mux:inst11.Sel
+Sel => mux:inst12.Sel
+Sel => mux:inst1.Sel
+
+
+|mux8|mux:inst
+Z <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+Sel => inst.IN1
+Sel => inst5.IN0
+A => inst1.IN0
+
+
+|mux8|mux:inst2
+Z <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+Sel => inst.IN1
+Sel => inst5.IN0
+A => inst1.IN0
+
+
+|mux8|mux:inst3
+Z <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+Sel => inst.IN1
+Sel => inst5.IN0
+A => inst1.IN0
+
+
+|mux8|mux:inst7
+Z <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+Sel => inst.IN1
+Sel => inst5.IN0
+A => inst1.IN0
+
+
+|mux8|mux:inst8
+Z <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+Sel => inst.IN1
+Sel => inst5.IN0
+A => inst1.IN0
+
+
+|mux8|mux:inst11
+Z <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+Sel => inst.IN1
+Sel => inst5.IN0
+A => inst1.IN0
+
+
+|mux8|mux:inst12
+Z <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+Sel => inst.IN1
+Sel => inst5.IN0
+A => inst1.IN0
+
+
+|mux8|mux:inst1
+Z <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+Sel => inst.IN1
+Sel => inst5.IN0
+A => inst1.IN0
+
+

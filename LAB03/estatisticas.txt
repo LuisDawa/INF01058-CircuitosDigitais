@@ -1,0 +1,18 @@
+Mux 8 bits:
+Atraso crítico: 10.124
+Total logic elements: 8/14,400
+Total pins: 25/81
+Total area: 33
+
+
+Decodificador:
+Atraso crítico: 8.994 ns
+Total logic elements: 8/14,400
+Total pins: 11/81
+Total area: 19
+
+Codificador Priritário:
+Atraso crítico: 9.762 ns
+Total logic elements: 7/5,136
+Total pins: 12/183
+Total area: 19
