@@ -4,7 +4,6 @@ Total logic elements: 8/14,400
 Total pins: 25/81
 Total area: 33
 
-
 Decodificador:
 Atraso crítico: 8.994 ns
 Total logic elements: 8/14,400
