@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Documents\Git-Repos\INF01058-CircuitosDigitais\LAB04\AU\simulation\qsim
+vArithmeticUnit
+Z1 !s100 fASWl:PFY5ELHD<VSYoUW3
+Z2 I4?gALLcPNAG0KKD^O02NE1
+Z3 VoScEhbAT<AYn[EzVIK62M1
+Z4 dD:\Documents\Git-Repos\INF01058-CircuitosDigitais\LAB04\AU\simulation\qsim
+Z5 w1745453611
+Z6 8ArithmeticUnit.vo
+Z7 FArithmeticUnit.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ArithmeticUnit.vo|
+Z10 o-work work -O0
+Z11 n@arithmetic@unit
+!i10b 1
+!s85 0
+Z12 !s108 1745453612.697000
+Z13 !s107 ArithmeticUnit.vo|
+!s101 -O0
+vArithmeticUnit_vlg_check_tst
+!i10b 1
+Z14 !s100 k?ml:3k<K?SKASLBH8[Kc3
+Z15 I;lF0b668:FUO_Z40Sg=Yz1
+Z16 VRaUP3n240dU_Ieg[PUKUj3
+R4
+R5
+Z17 8ArithmeticUnit.vt
+Z18 FArithmeticUnit.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z19 !s108 1745453612.829000
+Z20 !s107 ArithmeticUnit.vt|
+Z21 !s90 -work|work|ArithmeticUnit.vt|
+!s101 -O0
+R10
+Z22 n@arithmetic@unit_vlg_check_tst
+vArithmeticUnit_vlg_sample_tst
+!i10b 1
+Z23 !s100 h6=CNNULoHg`Ym66MAen[1
+Z24 IBXGkRHgezP[f03TM1Umd`2
+Z25 VUnC9>@91P1?1Lje1X4kEL2
+R4
+R5
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z26 n@arithmetic@unit_vlg_sample_tst
+vArithmeticUnit_vlg_vec_tst
+!i10b 1
+!s100 zXAoF]=N0XA=UPSD`ALi00
+IBez7i:jCQo7eQLBCe4YVW2
+Z27 VoPX940oT3dP5z=BSRIo[P0
+R4
+R5
+R17
+R18
+Z28 L0 281
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z29 n@arithmetic@unit_vlg_vec_tst

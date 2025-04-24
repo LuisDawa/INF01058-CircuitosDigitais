@@ -1,0 +1,4 @@
+Critical Delay: 12.348
+Total logic elements: 44 / 15,408
+Total pins: 18 / 347
+Total area: 62
