@@ -1,0 +1,6 @@
+ULA:
+Atraso crítico: 8.741 ns
+Total logic elements: 11/15,408
+Total pins: 16/347
+Total area: 27
+
