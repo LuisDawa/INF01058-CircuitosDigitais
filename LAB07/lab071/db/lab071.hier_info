@@ -1,0 +1,68 @@
+|lab071
+Q <= lab07:inst2.Q
+clk => lab07:inst.clk
+
+
+|lab071|lab07:inst2
+Q <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+rst => inst15.ACLR
+rst => inst13.ACLR
+rst => inst11.ACLR
+rst => inst9.ACLR
+rst => inst7.ACLR
+rst => inst5.ACLR
+rst => inst3.ACLR
+rst => inst.ACLR
+rst => inst.PRESET
+rst => inst3.PRESET
+rst => inst5.PRESET
+rst => inst7.PRESET
+rst => inst9.PRESET
+rst => inst11.PRESET
+rst => inst13.PRESET
+rst => inst15.PRESET
+clk => inst.CLK
+
+
+|lab071|lab07:inst1
+Q <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+rst => inst15.ACLR
+rst => inst13.ACLR
+rst => inst11.ACLR
+rst => inst9.ACLR
+rst => inst7.ACLR
+rst => inst5.ACLR
+rst => inst3.ACLR
+rst => inst.ACLR
+rst => inst.PRESET
+rst => inst3.PRESET
+rst => inst5.PRESET
+rst => inst7.PRESET
+rst => inst9.PRESET
+rst => inst11.PRESET
+rst => inst13.PRESET
+rst => inst15.PRESET
+clk => inst.CLK
+
+
+|lab071|lab07:inst
+Q <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+rst => inst15.ACLR
+rst => inst13.ACLR
+rst => inst11.ACLR
+rst => inst9.ACLR
+rst => inst7.ACLR
+rst => inst5.ACLR
+rst => inst3.ACLR
+rst => inst.ACLR
+rst => inst.PRESET
+rst => inst3.PRESET
+rst => inst5.PRESET
+rst => inst7.PRESET
+rst => inst9.PRESET
+rst => inst11.PRESET
+rst => inst13.PRESET
+rst => inst15.PRESET
+clk => inst.CLK
+
+

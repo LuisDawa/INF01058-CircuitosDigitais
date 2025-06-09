@@ -1,0 +1,2 @@
+Total logic elements: 47 / 5,136 ( < 1 % )
+Total pins: 2 / 183 ( 1 % )

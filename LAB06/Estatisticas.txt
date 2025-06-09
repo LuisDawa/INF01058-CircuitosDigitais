@@ -1,0 +1,3 @@
+Total pins: 17 / 347 ( 5 % )
+Total logic elements: 17 / 15,408 ( < 1 % )
+Atraso(ns): 9.994
