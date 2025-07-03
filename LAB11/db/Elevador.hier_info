@@ -1,0 +1,101 @@
+|Elevador
+HEX0[0] <= decoder_7_seg:ANDAR.segmentos_out[0]
+HEX0[1] <= decoder_7_seg:ANDAR.segmentos_out[1]
+HEX0[2] <= decoder_7_seg:ANDAR.segmentos_out[2]
+HEX0[3] <= decoder_7_seg:ANDAR.segmentos_out[3]
+HEX0[4] <= decoder_7_seg:ANDAR.segmentos_out[4]
+HEX0[5] <= decoder_7_seg:ANDAR.segmentos_out[5]
+HEX0[6] <= decoder_7_seg:ANDAR.segmentos_out[6]
+botao_descer => controlador:inst.botao_descer
+botao_subir => controlador:inst.botao_subir
+clk => controlador:inst.clk
+rst => controlador:inst.rst
+HEX1[0] <= decoder_7_seg:ACAO.segmentos_out[0]
+HEX1[1] <= decoder_7_seg:ACAO.segmentos_out[1]
+HEX1[2] <= decoder_7_seg:ACAO.segmentos_out[2]
+HEX1[3] <= decoder_7_seg:ACAO.segmentos_out[3]
+HEX1[4] <= decoder_7_seg:ACAO.segmentos_out[4]
+HEX1[5] <= decoder_7_seg:ACAO.segmentos_out[5]
+HEX1[6] <= decoder_7_seg:ACAO.segmentos_out[6]
+
+
+|Elevador|decoder_7_seg:ANDAR
+andar_atual => segmentos_out.DATAB
+andar_atual => segmentos_out.DATAB
+andar_atual => segmentos_out.DATAB
+andar_atual => segmentos_out.DATAB
+subir => segmentos_out.OUTPUTSELECT
+subir => segmentos_out.OUTPUTSELECT
+subir => segmentos_out.OUTPUTSELECT
+subir => segmentos_out.OUTPUTSELECT
+descer => segmentos_out.OUTPUTSELECT
+descer => segmentos_out.OUTPUTSELECT
+descer => segmentos_out.DATAA
+abrir_fechar => segmentos_out.DATAA
+abrir_fechar => segmentos_out.DATAA
+display_select => segmentos_out.OUTPUTSELECT
+display_select => segmentos_out.OUTPUTSELECT
+display_select => segmentos_out.OUTPUTSELECT
+display_select => segmentos_out.OUTPUTSELECT
+display_select => segmentos_out.OUTPUTSELECT
+display_select => segmentos_out.OUTPUTSELECT
+display_select => segmentos_out.OUTPUTSELECT
+segmentos_out[0] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+segmentos_out[1] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+segmentos_out[2] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+segmentos_out[3] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+segmentos_out[4] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+segmentos_out[5] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+segmentos_out[6] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Elevador|controlador:inst
+subir <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+rst => inst.ACLR
+rst => inst1.ACLR
+rst => inst2.ACLR
+clk => inst.CLK
+clk => inst1.CLK
+clk => inst2.CLK
+botao_descer => inst22.IN3
+botao_descer => inst27.IN3
+botao_subir => inst30.IN0
+botao_subir => inst33.IN3
+botao_subir => inst18.IN3
+descer <= inst39.DB_MAX_OUTPUT_PORT_TYPE
+porta <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+rst_subir <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+rst_descer <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+andar_atual <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Elevador|decoder_7_seg:ACAO
+andar_atual => segmentos_out.DATAB
+andar_atual => segmentos_out.DATAB
+andar_atual => segmentos_out.DATAB
+andar_atual => segmentos_out.DATAB
+subir => segmentos_out.OUTPUTSELECT
+subir => segmentos_out.OUTPUTSELECT
+subir => segmentos_out.OUTPUTSELECT
+subir => segmentos_out.OUTPUTSELECT
+descer => segmentos_out.OUTPUTSELECT
+descer => segmentos_out.OUTPUTSELECT
+descer => segmentos_out.DATAA
+abrir_fechar => segmentos_out.DATAA
+abrir_fechar => segmentos_out.DATAA
+display_select => segmentos_out.OUTPUTSELECT
+display_select => segmentos_out.OUTPUTSELECT
+display_select => segmentos_out.OUTPUTSELECT
+display_select => segmentos_out.OUTPUTSELECT
+display_select => segmentos_out.OUTPUTSELECT
+display_select => segmentos_out.OUTPUTSELECT
+display_select => segmentos_out.OUTPUTSELECT
+segmentos_out[0] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+segmentos_out[1] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+segmentos_out[2] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+segmentos_out[3] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+segmentos_out[4] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+segmentos_out[5] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+segmentos_out[6] <= segmentos_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
